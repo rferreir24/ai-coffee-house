@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T20:06:02+00:00",
+  "generated_at": "2026-10-26T20:06:41+00:00",
   "stories": [
     {
       "id": "50163277",
@@ -15,7 +15,7 @@
       "id": "50242939",
       "title": "Anthropic S-1",
       "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
-      "points": 1255,
+      "points": 1259,
       "comments": 1222,
       "hn_url": "https://news.ycombinator.com/item?id=50242939",
       "created_at": "2026-10-26T13:04:50Z",
@@ -225,7 +225,7 @@
       "id": "50248124",
       "title": "GPT-6.1 Terra",
       "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
-      "points": 286,
+      "points": 287,
       "comments": 148,
       "hn_url": "https://news.ycombinator.com/item?id=50248124",
       "created_at": "2026-10-26T18:01:17Z",
@@ -346,7 +346,7 @@
       "title": "Brown student maps the hidden global labor powering AI",
       "url": "https://www.brown.edu/news/2026-10-26/ai-data-workers",
       "points": 167,
-      "comments": 152,
+      "comments": 153,
       "hn_url": "https://news.ycombinator.com/item?id=50242843",
       "created_at": "2026-10-26T12:58:27Z",
       "security": false
@@ -375,7 +375,7 @@
       "id": "50247630",
       "title": "ChatGPT Keeps Telling People 404 Media Can Solve Their Tech Support Problems",
       "url": "https://www.404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-problems/",
-      "points": 146,
+      "points": 148,
       "comments": 50,
       "hn_url": "https://news.ycombinator.com/item?id=50247630",
       "created_at": "2026-10-26T17:32:16Z",
@@ -1072,5 +1072,43 @@
       "security": false
     }
   ],
-  "papers": []
+  "papers": [
+    {
+      "arxiv_id": "2610.29162",
+      "title": "Why is AI-generated language so hard to understand?",
+      "arxiv_url": "https://arxiv.org/abs/2610.29162",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "points": 252,
+      "comments": 201,
+      "hn_url": "https://news.ycombinator.com/item?id=50223647"
+    },
+    {
+      "arxiv_id": "2603.01092",
+      "title": "The Alien Space of Science: Sampling Coherent but Cognitively Unavailable Research Directions",
+      "arxiv_url": "https://arxiv.org/abs/2603.01092",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "points": 210,
+      "comments": 88,
+      "hn_url": "https://news.ycombinator.com/item?id=50195002"
+    },
+    {
+      "arxiv_id": "2512.19428",
+      "title": "Attention Is Not What You Need",
+      "arxiv_url": "https://arxiv.org/abs/2512.19428",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "math.AG"
+      ],
+      "points": 183,
+      "comments": 62,
+      "hn_url": "https://news.ycombinator.com/item?id=50237224"
+    }
+  ]
 }

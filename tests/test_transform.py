@@ -42,3 +42,31 @@ def test_build_stories_splits_filters_tags_and_ranks():
 def test_brand_names_match_with_version_numbers():
     assert transform.is_ai_story({"title": "Five Qwen3.8-27B models match"})
     assert transform.is_ai_story({"title": "Progressive disclosure in agents"})
+
+
+def test_arxiv_id_from_url():
+    assert transform.arxiv_id_from_url("https://arxiv.org/abs/2410.12345") == "2410.12345"
+    assert transform.arxiv_id_from_url("https://arxiv.org/pdf/2410.12345v2") == "2410.12345"
+    assert transform.arxiv_id_from_url("https://arxiv.org/list/cs.AI/recent") is None
+
+
+def test_dedupe_keeps_most_popular_post():
+    posts = [
+        {"url": "https://arxiv.org/abs/2410.12345", "points": 50, "hn_url": "a"},
+        {"url": "https://arxiv.org/pdf/2410.12345v2", "points": 300, "hn_url": "b"},
+    ]
+    papers = transform.dedupe_papers(posts)
+    assert len(papers) == 1 and papers[0]["hn_url"] == "b"
+
+
+def test_build_papers_keeps_only_ai_categories():
+    posts = [
+        {"arxiv_id": "1", "points": 10, "comments": 1, "hn_url": "h1"},
+        {"arxiv_id": "2", "points": 99, "comments": 1, "hn_url": "h2"},
+    ]
+    info = {
+        "1": {"title": "A language model paper", "categories": ["cs.CL"]},
+        "2": {"title": "A quantum physics paper", "categories": ["quant-ph"]},
+    }
+    papers = transform.build_papers(posts, info)
+    assert [p["arxiv_id"] for p in papers] == ["1"]

@@ -2,6 +2,7 @@
 
 import time
 
+import feedparser
 import requests
 
 ALGOLIA_URL = "https://hn.algolia.com/api/v1/search_by_date"
@@ -30,3 +31,31 @@ def fetch_hn_stories(days=7, min_points=20):
         if page >= data["nbPages"]:
             break
     return hits
+
+
+ARXIV_URL = "https://export.arxiv.org/api/query"
+
+
+def fetch_arxiv_papers(ids):
+    """Look up arXiv papers in one batched request.
+
+    arXiv answers with an Atom feed; returns {arxiv_id: {"title": ..., "categories": [...]}}.
+    """
+    if not ids:
+        return {}
+    response = requests.get(
+        ARXIV_URL,
+        params={"id_list": ",".join(ids), "max_results": len(ids)},
+        timeout=30,
+    )
+    response.raise_for_status()
+    feed = feedparser.parse(response.text)
+    papers = {}
+    for entry in feed.entries:
+        # entry.id looks like "http://arxiv.org/abs/2512.19428v1"
+        arxiv_id = entry.id.split("/abs/")[-1].split("v")[0]
+        papers[arxiv_id] = {
+            "title": " ".join(entry.title.split()),  # titles can contain line breaks
+            "categories": [tag.term for tag in entry.get("tags", [])],
+        }
+    return papers

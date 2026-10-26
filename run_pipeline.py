@@ -22,7 +22,13 @@ def main():
 
     # TRANSFORM
     stories, arxiv_posts = transform.build_stories(hits)
-    papers = []
+    paper_posts = transform.dedupe_papers(arxiv_posts)
+    try:
+        arxiv_info = extract.fetch_arxiv_papers([p["arxiv_id"] for p in paper_posts])
+    except Exception as error:
+        print(f"Warning: arXiv lookup failed ({error}). Papers will be empty this run.")
+        arxiv_info = {}
+    papers = transform.build_papers(paper_posts, arxiv_info)
 
     # LOAD
     data = {
@@ -36,7 +42,7 @@ def main():
     security = sum(1 for s in stories if s["security"])
     print(f"{len(hits)} stories fetched")
     print(f"  -> {len(stories)} AI stories ({security} security)")
-    print(f"  -> {len(arxiv_posts)} posts link arXiv")
+    print(f"  -> {len(arxiv_posts)} posts link arXiv -> {len(paper_posts)} unique papers -> {len(papers)} AI papers")
     print(f"Wrote {DOCS}/data.json and {DOCS}/index.html")
 
 
