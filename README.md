@@ -36,4 +36,10 @@ Then open `docs/index.html` in a browser. Run the tests with `pytest`.
 
 No API keys needed. Both APIs are free and public.
 
+## Credits
+
+- Color palette: [Benten Pond](https://lospec.com/palette-list/benten-pond) by [Terry Ross](https://lospec.com/cutegamesclub), via [Lospec](https://lospec.com)
+- Fonts: [Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P) and [VT323](https://fonts.google.com/specimen/VT323) from Google Fonts
+- Data: [Hacker News Search API (Algolia)](https://hn.algolia.com/api) and the [arXiv API](https://info.arxiv.org/help/api/)
+
 Built for Devpost's Build With AI: Basics hackathon.
