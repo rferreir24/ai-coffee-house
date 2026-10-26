@@ -42,4 +42,4 @@ No API keys needed. Both APIs are free and public.
 - Fonts: [Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P) and [VT323](https://fonts.google.com/specimen/VT323) from Google Fonts
 - Data: [Hacker News Search API (Algolia)](https://hn.algolia.com/api) and the [arXiv API](https://info.arxiv.org/help/api/)
 
-Built for Devpost's Build With AI: Basics hackathon.
+Built using the skills from Devpost's Build With AI: Basics hackathon.
