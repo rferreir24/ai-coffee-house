@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T20:06:41+00:00",
+  "generated_at": "2026-10-26T20:35:05+00:00",
   "stories": [
     {
       "id": "50163277",
@@ -15,8 +15,8 @@
       "id": "50242939",
       "title": "Anthropic S-1",
       "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
-      "points": 1259,
-      "comments": 1222,
+      "points": 1298,
+      "comments": 1261,
       "hn_url": "https://news.ycombinator.com/item?id=50242939",
       "created_at": "2026-10-26T13:04:50Z",
       "security": false
@@ -45,7 +45,7 @@
       "id": "50197313",
       "title": "Every AI model has the same \"controversial\" take on humans",
       "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
-      "points": 659,
+      "points": 660,
       "comments": 641,
       "hn_url": "https://news.ycombinator.com/item?id=50197313",
       "created_at": "2026-10-22T16:08:00Z",
@@ -85,7 +85,7 @@
       "id": "50226419",
       "title": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
       "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
-      "points": 537,
+      "points": 538,
       "comments": 575,
       "hn_url": "https://news.ycombinator.com/item?id=50226419",
       "created_at": "2026-10-24T23:11:54Z",
@@ -122,10 +122,20 @@
       "security": true
     },
     {
+      "id": "50245138",
+      "title": "Sebastian Raschka's from-scratch video course on building reasoning models",
+      "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+      "points": 426,
+      "comments": 58,
+      "hn_url": "https://news.ycombinator.com/item?id=50245138",
+      "created_at": "2026-10-26T15:11:59Z",
+      "security": false
+    },
+    {
       "id": "50238088",
       "title": "IBM CEO says open weight models are now good and cheap on-prem",
       "url": "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640",
-      "points": 405,
+      "points": 406,
       "comments": 315,
       "hn_url": "https://news.ycombinator.com/item?id=50238088",
       "created_at": "2026-10-26T01:47:46Z",
@@ -136,19 +146,9 @@
       "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
       "url": "https://minimaxir.com/2026/10/cheap-llms/",
       "points": 402,
-      "comments": 407,
+      "comments": 409,
       "hn_url": "https://news.ycombinator.com/item?id=50236102",
       "created_at": "2026-10-25T21:11:31Z",
-      "security": false
-    },
-    {
-      "id": "50245138",
-      "title": "Sebastian Raschka's from-scratch video course on building reasoning models",
-      "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
-      "points": 398,
-      "comments": 55,
-      "hn_url": "https://news.ycombinator.com/item?id=50245138",
-      "created_at": "2026-10-26T15:11:59Z",
       "security": false
     },
     {
@@ -176,7 +176,7 @@
       "title": "Cerebras Deploys Trillion-Parameter AI Models",
       "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
       "points": 364,
-      "comments": 140,
+      "comments": 141,
       "hn_url": "https://news.ycombinator.com/item?id=50227356",
       "created_at": "2026-10-25T01:33:49Z",
       "security": false
@@ -202,6 +202,16 @@
       "security": false
     },
     {
+      "id": "50248124",
+      "title": "GPT-6.1 Terra",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+      "points": 324,
+      "comments": 182,
+      "hn_url": "https://news.ycombinator.com/item?id=50248124",
+      "created_at": "2026-10-26T18:01:17Z",
+      "security": false
+    },
+    {
       "id": "50207405",
       "title": "Swedish government offices to ban ChatGPT and Claude",
       "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
@@ -219,16 +229,6 @@
       "comments": 1,
       "hn_url": "https://news.ycombinator.com/item?id=50230181",
       "created_at": "2026-10-25T10:42:01Z",
-      "security": false
-    },
-    {
-      "id": "50248124",
-      "title": "GPT-6.1 Terra",
-      "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
-      "points": 287,
-      "comments": 148,
-      "hn_url": "https://news.ycombinator.com/item?id=50248124",
-      "created_at": "2026-10-26T18:01:17Z",
       "security": false
     },
     {
@@ -285,7 +285,7 @@
       "id": "50233304",
       "title": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
       "url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
-      "points": 231,
+      "points": 232,
       "comments": 327,
       "hn_url": "https://news.ycombinator.com/item?id=50233304",
       "created_at": "2026-10-25T16:28:26Z",
@@ -342,23 +342,23 @@
       "security": false
     },
     {
+      "id": "50246658",
+      "title": "Concerning behavior from a popular open-weight AI model",
+      "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+      "points": 179,
+      "comments": 68,
+      "hn_url": "https://news.ycombinator.com/item?id=50246658",
+      "created_at": "2026-10-26T16:35:44Z",
+      "security": false
+    },
+    {
       "id": "50242843",
       "title": "Brown student maps the hidden global labor powering AI",
       "url": "https://www.brown.edu/news/2026-10-26/ai-data-workers",
       "points": 167,
-      "comments": 153,
+      "comments": 154,
       "hn_url": "https://news.ycombinator.com/item?id=50242843",
       "created_at": "2026-10-26T12:58:27Z",
-      "security": false
-    },
-    {
-      "id": "50246658",
-      "title": "Concerning behavior from a popular open-weight AI model",
-      "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
-      "points": 164,
-      "comments": 63,
-      "hn_url": "https://news.ycombinator.com/item?id=50246658",
-      "created_at": "2026-10-26T16:35:44Z",
       "security": false
     },
     {
@@ -375,8 +375,8 @@
       "id": "50247630",
       "title": "ChatGPT Keeps Telling People 404 Media Can Solve Their Tech Support Problems",
       "url": "https://www.404media.co/chatgpt-keeps-telling-people-404-media-can-solve-their-tech-support-problems/",
-      "points": 148,
-      "comments": 50,
+      "points": 155,
+      "comments": 52,
       "hn_url": "https://news.ycombinator.com/item?id=50247630",
       "created_at": "2026-10-26T17:32:16Z",
       "security": false
@@ -425,8 +425,8 @@
       "id": "50236681",
       "title": "SIMD-accelerated computer vision on a $2 microcontroller",
       "url": "https://shraiwi.com/blog/simd-fast-esp32s3/",
-      "points": 129,
-      "comments": 37,
+      "points": 136,
+      "comments": 40,
       "hn_url": "https://news.ycombinator.com/item?id=50236681",
       "created_at": "2026-10-25T22:29:47Z",
       "security": false
@@ -546,7 +546,7 @@
       "title": "AI didn't cause the tech jobs bust, but it explains why there's no recovery",
       "url": "https://vithushansylvester.com/writing/the-real-impact-of-ai-on-tech-jobs",
       "points": 81,
-      "comments": 46,
+      "comments": 49,
       "hn_url": "https://news.ycombinator.com/item?id=50234699",
       "created_at": "2026-10-25T18:42:23Z",
       "security": false
@@ -566,7 +566,7 @@
       "title": "Cognitive Mercantilism: AI panic resembles fears of early capitalism",
       "url": "https://contraptions.venkateshrao.com/p/cognitive-mercantilism",
       "points": 77,
-      "comments": 99,
+      "comments": 100,
       "hn_url": "https://news.ycombinator.com/item?id=50239027",
       "created_at": "2026-10-26T04:11:40Z",
       "security": false
@@ -636,7 +636,7 @@
       "title": "A mathematician reads the AI future",
       "url": "https://www.theatlantic.com/ideas/2026/10/ai-math-human-future/689133/",
       "points": 68,
-      "comments": 116,
+      "comments": 117,
       "hn_url": "https://news.ycombinator.com/item?id=50233347",
       "created_at": "2026-10-25T16:31:21Z",
       "security": false
@@ -796,7 +796,7 @@
       "title": "If AI displaces human workers, they will lose more than just pay",
       "url": "https://www.economist.com/business/2026/10/22/if-ai-displaces-human-workers-they-will-lose-more-than-just-pay",
       "points": 37,
-      "comments": 79,
+      "comments": 80,
       "hn_url": "https://news.ycombinator.com/item?id=50238351",
       "created_at": "2026-10-26T02:22:38Z",
       "security": false
@@ -809,6 +809,16 @@
       "comments": 1,
       "hn_url": "https://news.ycombinator.com/item?id=50196604",
       "created_at": "2026-10-22T15:18:17Z",
+      "security": false
+    },
+    {
+      "id": "50248075",
+      "title": "GPT 6.1 Terra",
+      "url": "https://developers.openai.com/api/docs/models/gpt-6.1-terra",
+      "points": 36,
+      "comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=50248075",
+      "created_at": "2026-10-26T17:58:24Z",
       "security": false
     },
     {
@@ -829,16 +839,6 @@
       "comments": 17,
       "hn_url": "https://news.ycombinator.com/item?id=50190334",
       "created_at": "2026-10-22T02:13:48Z",
-      "security": false
-    },
-    {
-      "id": "50248075",
-      "title": "GPT 6.1 Terra",
-      "url": "https://developers.openai.com/api/docs/models/gpt-6.1-terra",
-      "points": 28,
-      "comments": 2,
-      "hn_url": "https://news.ycombinator.com/item?id=50248075",
-      "created_at": "2026-10-26T17:58:24Z",
       "security": false
     },
     {
@@ -942,6 +942,16 @@
       "security": false
     },
     {
+      "id": "50249953",
+      "title": "Why I'm growing my Vancouver AI company in Taiwan and Europe instead of the U.S.",
+      "url": "https://bcbusiness.ca/business/tech-science/opinion-vancouver-ai-company-taiwan-europe/",
+      "points": 22,
+      "comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=50249953",
+      "created_at": "2026-10-26T19:52:44Z",
+      "security": false
+    },
+    {
       "id": "50229834",
       "title": "Ask HN: Are tab completion models dead?",
       "url": "https://news.ycombinator.com/item?id=50229834",
@@ -979,16 +989,6 @@
       "comments": 71,
       "hn_url": "https://news.ycombinator.com/item?id=50210696",
       "created_at": "2026-10-23T15:29:32Z",
-      "security": false
-    },
-    {
-      "id": "50249953",
-      "title": "Why I'm growing my Vancouver AI company in Taiwan and Europe instead of the U.S.",
-      "url": "https://bcbusiness.ca/business/tech-science/opinion-vancouver-ai-company-taiwan-europe/",
-      "points": 21,
-      "comments": 1,
-      "hn_url": "https://news.ycombinator.com/item?id=50249953",
-      "created_at": "2026-10-26T19:52:44Z",
       "security": false
     },
     {
@@ -1081,7 +1081,7 @@
         "cs.CL",
         "cs.AI"
       ],
-      "points": 252,
+      "points": 253,
       "comments": 201,
       "hn_url": "https://news.ycombinator.com/item?id=50223647"
     },
@@ -1107,7 +1107,7 @@
         "math.AG"
       ],
       "points": 183,
-      "comments": 62,
+      "comments": 64,
       "hn_url": "https://news.ycombinator.com/item?id=50237224"
     }
   ]
