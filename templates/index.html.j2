@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Coffee House</title>
+<meta name="description" content="This week's AI signal from Hacker News, minus the noise.">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --cream: #f1d6c5;
+    --paper: #d8d2ae;
+    --ink: #083b42;
+    --teal: #155355;
+    --sage: #4e8276;
+    --leaf: #63a37c;
+    --mint: #8dab6d;
+    --coral: #bf5f43;
+    --pink: #e3938b;
+    --red: #a2333a;
+    --sky: #7cacac;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--cream);
+    background-image: radial-gradient(var(--paper) 1px, transparent 1px);
+    background-size: 8px 8px;
+    color: var(--ink);
+    font-family: "VT323", monospace;
+    font-size: 22px;
+    line-height: 1.2;
+    padding: 24px 16px 48px;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; }
+  .pixel { font-family: "Press Start 2P", monospace; }
+
+  header {
+    background: var(--ink);
+    color: var(--cream);
+    border: 4px solid var(--ink);
+    box-shadow: 6px 6px 0 var(--teal);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 28px;
+  }
+  header h1 { font-size: 20px; margin: 0 0 8px; color: var(--pink); }
+  header p { margin: 0; color: var(--paper); }
+  header .brewed { margin-top: 6px; font-size: 18px; color: var(--sky); }
+
+  /* pixel coffee mug */
+  .mug { position: relative; width: 48px; height: 48px; flex: none; }
+  .mug .cup { position: absolute; left: 6px; top: 18px; width: 30px; height: 26px; background: var(--cream); }
+  .mug .coffee { position: absolute; left: 10px; top: 22px; width: 22px; height: 6px; background: var(--coral); }
+  .mug .handle { position: absolute; left: 36px; top: 24px; width: 8px; height: 12px; border: 4px solid var(--cream); border-left: none; }
+  .steam { position: absolute; top: 0; width: 4px; height: 12px; background: var(--sky); animation: steam 1.2s steps(3) infinite; }
+  .steam.s1 { left: 14px; } .steam.s2 { left: 24px; animation-delay: .4s; }
+  @keyframes steam { 0% { transform: translateY(4px); opacity: 1; } 100% { transform: translateY(-6px); opacity: 0; } }
+
+  section {
+    background: var(--cream);
+    border: 4px solid var(--ink);
+    box-shadow: 6px 6px 0 var(--sage);
+    margin-bottom: 28px;
+  }
+  section h2 {
+    margin: 0;
+    font-size: 12px;
+    padding: 12px 14px;
+    background: var(--leaf);
+    color: var(--ink);
+    border-bottom: 4px solid var(--ink);
+  }
+  section.papers h2 { background: var(--pink); }
+  ol { list-style: none; margin: 0; padding: 0; }
+  li {
+    padding: 10px 14px;
+    border-bottom: 2px dashed var(--sage);
+    display: grid;
+    grid-template-columns: 22px 1fr;
+    gap: 6px;
+  }
+  li:last-child { border-bottom: none; }
+  li:hover { background: var(--paper); }
+  li:hover .cursor { visibility: visible; }
+  .cursor { visibility: hidden; color: var(--coral); }
+  .title { color: var(--ink); text-decoration: none; }
+  .title:hover { text-decoration: underline; }
+  .meta { grid-column: 2; font-size: 19px; color: var(--teal); display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+  .meta a { color: var(--coral); }
+  .tag {
+    font-family: "Press Start 2P", monospace;
+    font-size: 8px;
+    background: var(--red);
+    color: var(--cream);
+    padding: 4px 6px;
+    border: 2px solid var(--ink);
+  }
+  .more { display: none; }
+  .show .more { display: grid; }
+  button {
+    font-family: "Press Start 2P", monospace;
+    font-size: 10px;
+    margin: 12px 14px 14px;
+    padding: 10px 14px;
+    background: var(--mint);
+    color: var(--ink);
+    border: 4px solid var(--ink);
+    box-shadow: 4px 4px 0 var(--ink);
+    cursor: pointer;
+  }
+  button:active { transform: translate(4px, 4px); box-shadow: none; }
+
+  .dialog {
+    margin: 14px;
+    padding: 14px;
+    background: #fff8ef;
+    border: 4px solid var(--ink);
+    box-shadow: inset -4px -4px 0 var(--paper);
+  }
+  .dialog::after { content: " ▼"; color: var(--coral); animation: blink 1s steps(2) infinite; }
+  @keyframes blink { 50% { opacity: 0; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="mug" aria-hidden="true">
+      <div class="steam s1"></div><div class="steam s2"></div>
+      <div class="cup"></div><div class="coffee"></div><div class="handle"></div>
+    </div>
+    <div>
+      <h1 class="pixel">AI COFFEE HOUSE</h1>
+      <p>This week's AI signal, minus the noise.</p>
+      <p class="brewed">Brewed at {{ brewed_at }}</p>
+    </div>
+  </header>
+
+  <section id="trending">
+    <h2 class="pixel">☕ TRENDING AI ON HN</h2>
+    {% if stories %}
+    <ol>
+      {% for story in stories %}
+      <li{% if loop.index > 5 %} class="more"{% endif %}><span class="cursor">▶</span><a class="title" href="{{ story.url }}">{{ story.title }}</a>
+        <div class="meta"><span>▲ {{ story.points }}</span><span>💬 {{ story.comments }}</span><a href="{{ story.hn_url }}">discuss on HN</a>{% if story.security %}<span class="tag">SECURITY</span>{% endif %}</div></li>
+      {% endfor %}
+    </ol>
+    {% if stories|length > 5 %}<button onclick="toggle(this)">▼ SHOW MORE</button>{% endif %}
+    {% else %}
+    <div class="dialog">Nothing brewing yet.</div>
+    {% endif %}
+  </section>
+
+  <section id="papers" class="papers">
+    <h2 class="pixel">📰 PAPERS HITTING MAINSTREAM</h2>
+    {% if papers %}
+    <ol>
+      {% for paper in papers %}
+      <li{% if loop.index > 5 %} class="more"{% endif %}><span class="cursor">▶</span><a class="title" href="{{ paper.arxiv_url }}">{{ paper.title }}</a>
+        <div class="meta"><a href="{{ paper.arxiv_url }}">arXiv</a><span>▲ {{ paper.points }}</span><span>💬 {{ paper.comments }}</span><a href="{{ paper.hn_url }}">discuss on HN</a></div></li>
+      {% endfor %}
+    </ol>
+    {% if papers|length > 5 %}<button onclick="toggle(this)">▼ SHOW MORE</button>{% endif %}
+    {% else %}
+    <div class="dialog">The paper boy hasn't received new papers yet.</div>
+    {% endif %}
+  </section>
+</div>
+<script>
+  function toggle(btn) {
+    const s = btn.closest("section");
+    s.classList.toggle("show");
+    btn.textContent = s.classList.contains("show") ? "▲ SHOW LESS" : "▼ SHOW MORE";
+  }
+</script>
+</body>
+</html>
