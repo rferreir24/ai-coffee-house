@@ -1,22 +1,32 @@
 {
-  "generated_at": "2026-10-28T14:52:06+00:00",
+  "generated_at": "2026-10-29T14:57:28+00:00",
   "stories": [
     {
       "id": "50242939",
       "title": "Anthropic S-1",
       "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
-      "points": 1698,
-      "comments": 1663,
+      "points": 1703,
+      "comments": 1675,
       "hn_url": "https://news.ycombinator.com/item?id=50242939",
       "created_at": "2026-10-26T13:04:50Z",
+      "security": false
+    },
+    {
+      "id": "50276792",
+      "title": "Gemini 4 Carbon",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "points": 978,
+      "comments": 779,
+      "hn_url": "https://news.ycombinator.com/item?id=50276792",
+      "created_at": "2026-10-28T17:01:23Z",
       "security": false
     },
     {
       "id": "50245138",
       "title": "Sebastian Raschka's from-scratch video course on building reasoning models",
       "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
-      "points": 839,
-      "comments": 113,
+      "points": 849,
+      "comments": 116,
       "hn_url": "https://news.ycombinator.com/item?id=50245138",
       "created_at": "2026-10-26T15:11:59Z",
       "security": false
@@ -25,18 +35,28 @@
       "id": "50200997",
       "title": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
       "url": "https://news.ycombinator.com/item?id=50200997",
-      "points": 679,
-      "comments": 752,
+      "points": 680,
+      "comments": 753,
       "hn_url": "https://news.ycombinator.com/item?id=50200997",
       "created_at": "2026-10-22T21:03:55Z",
+      "security": false
+    },
+    {
+      "id": "50257325",
+      "title": "AI promised less work. I've never worked more",
+      "url": "https://oioannou.com/blog/ai-promised-less-work/",
+      "points": 675,
+      "comments": 658,
+      "hn_url": "https://news.ycombinator.com/item?id=50257325",
+      "created_at": "2026-10-27T11:08:14Z",
       "security": false
     },
     {
       "id": "50233779",
       "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
       "url": "https://lynchlab.net/llm-skin-cancer",
-      "points": 668,
-      "comments": 273,
+      "points": 669,
+      "comments": 274,
       "hn_url": "https://news.ycombinator.com/item?id=50233779",
       "created_at": "2026-10-25T17:15:38Z",
       "security": false
@@ -45,28 +65,18 @@
       "id": "50197313",
       "title": "Every AI model has the same \"controversial\" take on humans",
       "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
-      "points": 665,
-      "comments": 644,
+      "points": 666,
+      "comments": 646,
       "hn_url": "https://news.ycombinator.com/item?id=50197313",
       "created_at": "2026-10-22T16:08:00Z",
-      "security": false
-    },
-    {
-      "id": "50257325",
-      "title": "AI promised less work. I've never worked more",
-      "url": "https://oioannou.com/blog/ai-promised-less-work/",
-      "points": 652,
-      "comments": 647,
-      "hn_url": "https://news.ycombinator.com/item?id=50257325",
-      "created_at": "2026-10-27T11:08:14Z",
       "security": false
     },
     {
       "id": "50224463",
       "title": "No signs of AI payoff outside the tech sector",
       "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
-      "points": 644,
-      "comments": 673,
+      "points": 649,
+      "comments": 677,
       "hn_url": "https://news.ycombinator.com/item?id=50224463",
       "created_at": "2026-10-24T19:47:19Z",
       "security": false
@@ -75,87 +85,117 @@
       "id": "50248124",
       "title": "GPT-6.1 Terra",
       "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
-      "points": 630,
-      "comments": 424,
+      "points": 633,
+      "comments": 426,
       "hn_url": "https://news.ycombinator.com/item?id=50248124",
       "created_at": "2026-10-26T18:01:17Z",
       "security": false
     },
     {
-      "id": "50186037",
-      "title": "Claude Duet",
-      "url": "https://claude.com/product/claude-duet",
-      "points": 567,
-      "comments": 536,
-      "hn_url": "https://news.ycombinator.com/item?id=50186037",
-      "created_at": "2026-10-21T19:14:01Z",
-      "security": false
-    },
-    {
-      "id": "50226419",
-      "title": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
-      "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
-      "points": 545,
-      "comments": 586,
-      "hn_url": "https://news.ycombinator.com/item?id=50226419",
-      "created_at": "2026-10-24T23:11:54Z",
+      "id": "50282838",
+      "title": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5",
+      "url": "https://divagr.com/blog/qwenputer",
+      "points": 612,
+      "comments": 128,
+      "hn_url": "https://news.ycombinator.com/item?id=50282838",
+      "created_at": "2026-10-29T00:25:45Z",
       "security": false
     },
     {
       "id": "50260814",
       "title": "Anthropic trained Claude on illegally obtained Stanford professors' books",
       "url": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
-      "points": 544,
-      "comments": 280,
+      "points": 587,
+      "comments": 295,
       "hn_url": "https://news.ycombinator.com/item?id=50260814",
       "created_at": "2026-10-27T15:28:26Z",
       "security": false
     },
     {
-      "id": "50198675",
-      "title": "OpenShell \u2013 A safe, private runtime for fleets of autonomous AI agents",
-      "url": "https://github.com/NVIDIA/OpenShell",
-      "points": 507,
-      "comments": 218,
-      "hn_url": "https://news.ycombinator.com/item?id=50198675",
-      "created_at": "2026-10-22T17:44:06Z",
+      "id": "50226419",
+      "title": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
+      "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+      "points": 546,
+      "comments": 589,
+      "hn_url": "https://news.ycombinator.com/item?id=50226419",
+      "created_at": "2026-10-24T23:11:54Z",
+      "security": false
+    },
+    {
+      "id": "50264853",
+      "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+      "url": "https://www.brangus.io/survival-llm",
+      "points": 531,
+      "comments": 196,
+      "hn_url": "https://news.ycombinator.com/item?id=50264853",
+      "created_at": "2026-10-27T19:55:06Z",
       "security": false
     },
     {
       "id": "50257326",
       "title": "Wikipedia's Cleanup of AI-Generated Content",
       "url": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
-      "points": 487,
-      "comments": 222,
+      "points": 511,
+      "comments": 237,
       "hn_url": "https://news.ycombinator.com/item?id=50257326",
       "created_at": "2026-10-27T11:08:15Z",
       "security": false
     },
     {
-      "id": "50256985",
-      "title": "Roblox downloaded 145GB models from us (including adult content) without asking",
-      "url": "https://open3dlab.com/news/roblox-downloaded-145-gb-of-models-from-our-sites/",
-      "points": 477,
-      "comments": 270,
-      "hn_url": "https://news.ycombinator.com/item?id=50256985",
-      "created_at": "2026-10-27T10:27:50Z",
+      "id": "50198675",
+      "title": "OpenShell \u2013 A safe, private runtime for fleets of autonomous AI agents",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "points": 508,
+      "comments": 218,
+      "hn_url": "https://news.ycombinator.com/item?id=50198675",
+      "created_at": "2026-10-22T17:44:06Z",
+      "security": false
+    },
+    {
+      "id": "50284255",
+      "title": "Claude Code regularly sends each background agent\u2019s transcript to its model",
+      "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+      "points": 504,
+      "comments": 206,
+      "hn_url": "https://news.ycombinator.com/item?id=50284255",
+      "created_at": "2026-10-29T03:33:42Z",
       "security": false
     },
     {
       "id": "50255298",
       "title": "The Mythical Man-Month in the Age of AI",
       "url": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
-      "points": 466,
-      "comments": 337,
+      "points": 483,
+      "comments": 355,
       "hn_url": "https://news.ycombinator.com/item?id=50255298",
       "created_at": "2026-10-27T06:25:37Z",
+      "security": false
+    },
+    {
+      "id": "50256985",
+      "title": "Roblox downloaded 145GB models from us (including adult content) without asking",
+      "url": "https://open3dlab.com/news/roblox-downloaded-145-gb-of-models-from-our-sites/",
+      "points": 481,
+      "comments": 278,
+      "hn_url": "https://news.ycombinator.com/item?id=50256985",
+      "created_at": "2026-10-27T10:27:50Z",
+      "security": false
+    },
+    {
+      "id": "50273396",
+      "title": "Kentucky man becomes the first humanist granted religious exemption from AI",
+      "url": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
+      "points": 475,
+      "comments": 510,
+      "hn_url": "https://news.ycombinator.com/item?id=50273396",
+      "created_at": "2026-10-28T13:41:30Z",
       "security": false
     },
     {
       "id": "50202217",
       "title": "LLMs are making formal software verification feasible at a much larger scale",
       "url": "https://www.anthropic.com/research/formal-verification",
-      "points": 464,
+      "points": 473,
       "comments": 312,
       "hn_url": "https://news.ycombinator.com/item?id=50202217",
       "created_at": "2026-10-22T22:54:43Z",
@@ -165,28 +205,18 @@
       "id": "50236102",
       "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
       "url": "https://minimaxir.com/2026/10/cheap-llms/",
-      "points": 438,
-      "comments": 436,
+      "points": 441,
+      "comments": 437,
       "hn_url": "https://news.ycombinator.com/item?id=50236102",
       "created_at": "2026-10-25T21:11:31Z",
-      "security": false
-    },
-    {
-      "id": "50264853",
-      "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
-      "url": "https://www.brangus.io/survival-llm",
-      "points": 437,
-      "comments": 166,
-      "hn_url": "https://news.ycombinator.com/item?id=50264853",
-      "created_at": "2026-10-27T19:55:06Z",
       "security": false
     },
     {
       "id": "50238088",
       "title": "IBM CEO says open weight models are now good and cheap on-prem",
       "url": "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640",
-      "points": 424,
-      "comments": 336,
+      "points": 426,
+      "comments": 338,
       "hn_url": "https://news.ycombinator.com/item?id=50238088",
       "created_at": "2026-10-26T01:47:46Z",
       "security": false
@@ -195,10 +225,20 @@
       "id": "50261819",
       "title": "Police are using AI to pull over drivers for 'suspicious' behavior",
       "url": "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220",
-      "points": 381,
-      "comments": 299,
+      "points": 396,
+      "comments": 312,
       "hn_url": "https://news.ycombinator.com/item?id=50261819",
       "created_at": "2026-10-27T16:40:15Z",
+      "security": false
+    },
+    {
+      "id": "50261589",
+      "title": "Amazon Is Gutting Its AI Division After Sustained Failure",
+      "url": "https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova",
+      "points": 377,
+      "comments": 290,
+      "hn_url": "https://news.ycombinator.com/item?id=50261589",
+      "created_at": "2026-10-27T16:25:30Z",
       "security": false
     },
     {
@@ -212,40 +252,40 @@
       "security": false
     },
     {
-      "id": "50261589",
-      "title": "Amazon Is Gutting Its AI Division After Sustained Failure",
-      "url": "https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova",
-      "points": 339,
-      "comments": 263,
-      "hn_url": "https://news.ycombinator.com/item?id=50261589",
-      "created_at": "2026-10-27T16:25:30Z",
-      "security": false
+      "id": "50280864",
+      "title": "Leak Exposes 41,000 Homeland Security Workers\u2013Including Undercover ICE Agents",
+      "url": "https://www.wired.com/story/massive-leak-exposes-41000-homeland-security-workers-including-undercover-ice-agents/",
+      "points": 349,
+      "comments": 199,
+      "hn_url": "https://news.ycombinator.com/item?id=50280864",
+      "created_at": "2026-10-28T21:03:24Z",
+      "security": true
     },
     {
       "id": "50246658",
       "title": "Concerning behavior from a popular open-weight AI model",
       "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
-      "points": 327,
-      "comments": 129,
+      "points": 330,
+      "comments": 131,
       "hn_url": "https://news.ycombinator.com/item?id=50246658",
       "created_at": "2026-10-26T16:35:44Z",
       "security": false
     },
     {
-      "id": "50186129",
-      "title": "Mistral Large 4",
-      "url": "https://mistral.ai/news/mistral-large-4/",
-      "points": 327,
-      "comments": 105,
-      "hn_url": "https://news.ycombinator.com/item?id=50186129",
-      "created_at": "2026-10-21T19:20:55Z",
+      "id": "50265609",
+      "title": "Early progress on accelerating drug development with Claude",
+      "url": "https://www.anthropic.com/research/early-progress-drug-development",
+      "points": 326,
+      "comments": 337,
+      "hn_url": "https://news.ycombinator.com/item?id=50265609",
+      "created_at": "2026-10-27T20:50:42Z",
       "security": false
     },
     {
       "id": "50207405",
       "title": "Swedish government offices to ban ChatGPT and Claude",
       "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
-      "points": 323,
+      "points": 324,
       "comments": 125,
       "hn_url": "https://news.ycombinator.com/item?id=50207405",
       "created_at": "2026-10-23T11:39:54Z",
@@ -262,13 +302,13 @@
       "security": false
     },
     {
-      "id": "50265609",
-      "title": "Early progress on accelerating drug development with Claude",
-      "url": "https://www.anthropic.com/research/early-progress-drug-development",
-      "points": 277,
-      "comments": 264,
-      "hn_url": "https://news.ycombinator.com/item?id=50265609",
-      "created_at": "2026-10-27T20:50:42Z",
+      "id": "50251200",
+      "title": "OpenAI's agents talked to each other through the CPU Cache",
+      "url": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/",
+      "points": 294,
+      "comments": 206,
+      "hn_url": "https://news.ycombinator.com/item?id=50251200",
+      "created_at": "2026-10-26T21:24:18Z",
       "security": false
     },
     {
@@ -282,13 +322,13 @@
       "security": false
     },
     {
-      "id": "50191507",
-      "title": "OpenAI CLI",
-      "url": "https://github.com/openai/openai-cli",
-      "points": 244,
-      "comments": 111,
-      "hn_url": "https://news.ycombinator.com/item?id=50191507",
-      "created_at": "2026-10-22T05:23:11Z",
+      "id": "50275626",
+      "title": "Dayjob: Tax \u2013 evaluating AI agents on 50 professional tax assignments",
+      "url": "https://surgehq.ai/blog/dayjob-tax",
+      "points": 248,
+      "comments": 160,
+      "hn_url": "https://news.ycombinator.com/item?id=50275626",
+      "created_at": "2026-10-28T15:46:30Z",
       "security": false
     },
     {
@@ -296,7 +336,7 @@
       "title": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
       "url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
       "points": 239,
-      "comments": 335,
+      "comments": 340,
       "hn_url": "https://news.ycombinator.com/item?id=50233304",
       "created_at": "2026-10-25T16:28:26Z",
       "security": false
@@ -306,7 +346,7 @@
       "title": "PaperPilot \u2013 Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
       "url": "https://github.com/KrushnaVardhanReddy/PaperPilot",
       "points": 236,
-      "comments": 87,
+      "comments": 88,
       "hn_url": "https://news.ycombinator.com/item?id=50238739",
       "created_at": "2026-10-26T03:29:05Z",
       "security": false
@@ -315,20 +355,40 @@
       "id": "50236681",
       "title": "SIMD-accelerated computer vision on a $2 microcontroller",
       "url": "https://shraiwi.com/blog/simd-fast-esp32s3/",
-      "points": 228,
+      "points": 229,
       "comments": 66,
       "hn_url": "https://news.ycombinator.com/item?id=50236681",
       "created_at": "2026-10-25T22:29:47Z",
       "security": false
     },
     {
+      "id": "50289418",
+      "title": "Mistral Large 4 (Le Chonk) is now Open Weight",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "points": 206,
+      "comments": 49,
+      "hn_url": "https://news.ycombinator.com/item?id=50289418",
+      "created_at": "2026-10-29T14:13:21Z",
+      "security": false
+    },
+    {
       "id": "50258868",
       "title": "Here be monsters: What do you still need to know when agents do the work?",
       "url": "https://blog.adrq.dev/here-be-monsters-what-do-you-still-need-to-know-when-agents-do-the-work",
-      "points": 187,
-      "comments": 99,
+      "points": 205,
+      "comments": 106,
       "hn_url": "https://news.ycombinator.com/item?id=50258868",
       "created_at": "2026-10-27T13:23:22Z",
+      "security": false
+    },
+    {
+      "id": "50288019",
+      "title": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5",
+      "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+      "points": 193,
+      "comments": 151,
+      "hn_url": "https://news.ycombinator.com/item?id=50288019",
+      "created_at": "2026-10-29T12:41:56Z",
       "security": false
     },
     {
@@ -355,8 +415,8 @@
       "id": "50252159",
       "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
       "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
-      "points": 180,
-      "comments": 78,
+      "points": 181,
+      "comments": 79,
       "hn_url": "https://news.ycombinator.com/item?id=50252159",
       "created_at": "2026-10-26T22:41:48Z",
       "security": false
@@ -365,10 +425,20 @@
       "id": "50246238",
       "title": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT",
       "url": "https://github.com/FrigadeHQ/hob",
-      "points": 170,
-      "comments": 42,
+      "points": 173,
+      "comments": 43,
       "hn_url": "https://news.ycombinator.com/item?id=50246238",
       "created_at": "2026-10-26T16:12:29Z",
+      "security": false
+    },
+    {
+      "id": "50280178",
+      "title": "Google AI gets cagey when asked who won the 2020 elections",
+      "url": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/",
+      "points": 158,
+      "comments": 73,
+      "hn_url": "https://news.ycombinator.com/item?id=50280178",
+      "created_at": "2026-10-28T20:10:16Z",
       "security": false
     },
     {
@@ -395,40 +465,40 @@
       "id": "50222525",
       "title": "Neural chip decodes interactions between brain regions",
       "url": "https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/",
-      "points": 139,
+      "points": 140,
       "comments": 55,
       "hn_url": "https://news.ycombinator.com/item?id=50222525",
       "created_at": "2026-10-24T15:57:17Z",
       "security": false
     },
     {
-      "id": "50186043",
-      "title": "Google staff resign in backlash over its AI contracts with military",
-      "url": "https://www.bbc.com/news/articles/cmreyvepnv0po",
-      "points": 128,
-      "comments": 26,
-      "hn_url": "https://news.ycombinator.com/item?id=50186043",
-      "created_at": "2026-10-21T19:14:21Z",
+      "id": "50287359",
+      "title": "An Urgent Message on Artificial Intelligence from the Kogui People",
+      "url": "https://sonidoselva.com/perspectiva-kogui",
+      "points": 112,
+      "comments": 95,
+      "hn_url": "https://news.ycombinator.com/item?id=50287359",
+      "created_at": "2026-10-29T11:29:49Z",
       "security": false
     },
     {
-      "id": "50183892",
-      "title": "Show HN: Omnara \u2013 Open-source alternative to Claude Managed Agents",
-      "url": "https://github.com/omnara-ai/omnara",
-      "points": 114,
-      "comments": 34,
-      "hn_url": "https://news.ycombinator.com/item?id=50183892",
-      "created_at": "2026-10-21T16:44:53Z",
+      "id": "50264228",
+      "title": "US President says he will ban the term 'artificial intelligence'",
+      "url": "https://thehill.com/homenews/administration/6175633-trump-bans-artificial-intelligence-term/",
+      "points": 107,
+      "comments": 135,
+      "hn_url": "https://news.ycombinator.com/item?id=50264228",
+      "created_at": "2026-10-27T19:11:31Z",
       "security": false
     },
     {
-      "id": "50273396",
-      "title": "Kentucky man becomes the first humanist granted religious exemption from AI",
-      "url": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
-      "points": 99,
-      "comments": 105,
-      "hn_url": "https://news.ycombinator.com/item?id=50273396",
-      "created_at": "2026-10-28T13:41:30Z",
+      "id": "50230995",
+      "title": "Imagine an AI future where being banned means you are now economically useless",
+      "url": "https://twitter.com/boneGPT/status/2114035719853265264",
+      "points": 100,
+      "comments": 80,
+      "hn_url": "https://news.ycombinator.com/item?id=50230995",
+      "created_at": "2026-10-25T12:47:20Z",
       "security": false
     },
     {
@@ -442,41 +512,21 @@
       "security": false
     },
     {
-      "id": "50230995",
-      "title": "Imagine an AI future where being banned means you are now economically useless",
-      "url": "https://twitter.com/boneGPT/status/2114035719853265264",
-      "points": 99,
-      "comments": 80,
-      "hn_url": "https://news.ycombinator.com/item?id=50230995",
-      "created_at": "2026-10-25T12:47:20Z",
-      "security": false
-    },
-    {
       "id": "50220204",
       "title": "AI-Assisted Paper on Z-Library Cites a TorrentFreak Article That Doesn't Exist",
       "url": "https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist/",
-      "points": 97,
+      "points": 98,
       "comments": 62,
       "hn_url": "https://news.ycombinator.com/item?id=50220204",
       "created_at": "2026-10-24T11:18:54Z",
       "security": false
     },
     {
-      "id": "50264228",
-      "title": "US President says he will ban the term 'artificial intelligence'",
-      "url": "https://thehill.com/homenews/administration/6175633-trump-bans-artificial-intelligence-term/",
-      "points": 96,
-      "comments": 128,
-      "hn_url": "https://news.ycombinator.com/item?id=50264228",
-      "created_at": "2026-10-27T19:11:31Z",
-      "security": false
-    },
-    {
       "id": "50254836",
       "title": "There are now 5 inference providers for abliterated DeepSeek",
       "url": "https://allmodels.io/llm/abliterated",
-      "points": 96,
-      "comments": 119,
+      "points": 97,
+      "comments": 120,
       "hn_url": "https://news.ycombinator.com/item?id=50254836",
       "created_at": "2026-10-27T04:53:52Z",
       "security": false
@@ -492,16 +542,6 @@
       "security": false
     },
     {
-      "id": "50186455",
-      "title": "Claude Duet",
-      "url": "https://claude.com/resources/articles/claude-duet",
-      "points": 93,
-      "comments": 13,
-      "hn_url": "https://news.ycombinator.com/item?id=50186455",
-      "created_at": "2026-10-21T19:40:18Z",
-      "security": false
-    },
-    {
       "id": "50198940",
       "title": "AI analysis of CT scans finds 42.9% of patients have coronary inflammation",
       "url": "https://www.biograph.com/newsroom/biograph-completes-first-u.s.-study-with-caristo-diagnostics%E2%80%99-ai-powered-coronary-inflammation-detection-finding-risk-in-over-42-of-asymptomatic-patients",
@@ -509,16 +549,6 @@
       "comments": 47,
       "hn_url": "https://news.ycombinator.com/item?id=50198940",
       "created_at": "2026-10-22T18:02:54Z",
-      "security": false
-    },
-    {
-      "id": "50190357",
-      "title": "Claude Now Works with Google Docs, Sheets, and Slides",
-      "url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides",
-      "points": 91,
-      "comments": 15,
-      "hn_url": "https://news.ycombinator.com/item?id=50190357",
-      "created_at": "2026-10-22T02:17:58Z",
       "security": false
     },
     {
@@ -545,10 +575,20 @@
       "id": "50239027",
       "title": "Cognitive Mercantilism: AI panic resembles fears of early capitalism",
       "url": "https://contraptions.venkateshrao.com/p/cognitive-mercantilism",
-      "points": 82,
-      "comments": 120,
+      "points": 84,
+      "comments": 124,
       "hn_url": "https://news.ycombinator.com/item?id=50239027",
       "created_at": "2026-10-26T04:11:40Z",
+      "security": false
+    },
+    {
+      "id": "50281826",
+      "title": "AI execs may be too out of touch to build for the general public",
+      "url": "https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/",
+      "points": 83,
+      "comments": 61,
+      "hn_url": "https://news.ycombinator.com/item?id=50281826",
+      "created_at": "2026-10-28T22:27:46Z",
       "security": false
     },
     {
@@ -559,16 +599,6 @@
       "comments": 46,
       "hn_url": "https://news.ycombinator.com/item?id=50199290",
       "created_at": "2026-10-22T18:32:57Z",
-      "security": false
-    },
-    {
-      "id": "50183727",
-      "title": "Rust off Rails: The opinionated web stack for the AI era",
-      "url": "https://rustoffrails.org/",
-      "points": 76,
-      "comments": 76,
-      "hn_url": "https://news.ycombinator.com/item?id=50183727",
-      "created_at": "2026-10-21T16:34:16Z",
       "security": false
     },
     {
@@ -585,7 +615,7 @@
       "id": "50238620",
       "title": "Microsoft Decision-1: 9B Qwen Model Launch Explained",
       "url": "https://shattered.io/microsoft-decision-1-qwen3-5-9b-model-2026/",
-      "points": 71,
+      "points": 72,
       "comments": 31,
       "hn_url": "https://news.ycombinator.com/item?id=50238620",
       "created_at": "2026-10-26T03:12:05Z",
@@ -615,10 +645,60 @@
       "id": "50273623",
       "title": "Harvey raised 500M for legal AI, I built the same and open sourced it",
       "url": "https://github.com/thomasunise/casecite",
-      "points": 67,
-      "comments": 26,
+      "points": 69,
+      "comments": 38,
       "hn_url": "https://news.ycombinator.com/item?id=50273623",
       "created_at": "2026-10-28T13:56:21Z",
+      "security": false
+    },
+    {
+      "id": "50271271",
+      "title": "Microsoft and Epic Games Suddenly Agree That AI Is Theft",
+      "url": "https://kotaku.com/now-that-the-shoe-is-on-the-other-foot-microsoft-and-epic-games-suddenly-agree-that-ai-is-theft-2000749316",
+      "points": 69,
+      "comments": 35,
+      "hn_url": "https://news.ycombinator.com/item?id=50271271",
+      "created_at": "2026-10-28T10:10:58Z",
+      "security": false
+    },
+    {
+      "id": "50263012",
+      "title": "She Worried About Cutting Her Medication Dose. ChatGPT Told Her to Push On",
+      "url": "https://www.nytimes.com/2026/10/27/well/ai-chatgpt-medication-epilepsy-death.html",
+      "points": 69,
+      "comments": 26,
+      "hn_url": "https://news.ycombinator.com/item?id=50263012",
+      "created_at": "2026-10-27T17:49:47Z",
+      "security": false
+    },
+    {
+      "id": "50272479",
+      "title": "Sleep framework: A new way for LLMs to retain knowledge in continual learning",
+      "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+      "points": 68,
+      "comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=50272479",
+      "created_at": "2026-10-28T12:24:25Z",
+      "security": false
+    },
+    {
+      "id": "50273192",
+      "title": "Valve Responds to Developers Fearing AI Slop and Clones",
+      "url": "https://www.invenglobal.com/articles/27761/valve-responds-to-developers-fearing-ai-slop-and-clones",
+      "points": 67,
+      "comments": 82,
+      "hn_url": "https://news.ycombinator.com/item?id=50273192",
+      "created_at": "2026-10-28T13:27:24Z",
+      "security": false
+    },
+    {
+      "id": "50214185",
+      "title": "New AI Is More Than Twice as Good at Diagnosing Diseases as Doctors",
+      "url": "https://gizmodo.com/microsoft-says-its-new-ai-is-more-than-twice-as-good-at-diagnosing-diseases-as-doctors-2000829562",
+      "points": 67,
+      "comments": 60,
+      "hn_url": "https://news.ycombinator.com/item?id=50214185",
+      "created_at": "2026-10-23T19:31:36Z",
       "security": false
     },
     {
@@ -626,19 +706,9 @@
       "title": "Show HN: ADRs for AI \u2013 Deliberation records for human\u2013AI work, versioned in Git",
       "url": "https://adrs.systems",
       "points": 66,
-      "comments": 56,
+      "comments": 58,
       "hn_url": "https://news.ycombinator.com/item?id=50227041",
       "created_at": "2026-10-25T00:43:47Z",
-      "security": false
-    },
-    {
-      "id": "50214185",
-      "title": "New AI Is More Than Twice as Good at Diagnosing Diseases as Doctors",
-      "url": "https://gizmodo.com/microsoft-says-its-new-ai-is-more-than-twice-as-good-at-diagnosing-diseases-as-doctors-2000829562",
-      "points": 66,
-      "comments": 60,
-      "hn_url": "https://news.ycombinator.com/item?id=50214185",
-      "created_at": "2026-10-23T19:31:36Z",
       "security": false
     },
     {
@@ -652,23 +722,53 @@
       "security": false
     },
     {
-      "id": "50183253",
-      "title": "AI agent fixed the bug, but what else did it change?",
-      "url": "https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change/",
-      "points": 54,
-      "comments": 6,
-      "hn_url": "https://news.ycombinator.com/item?id=50183253",
-      "created_at": "2026-10-21T16:03:32Z",
+      "id": "50266910",
+      "title": "Qwen has alter egos triggered by flipping a single neuron",
+      "url": "https://qwen-neurons-site.vercel.app/",
+      "points": 59,
+      "comments": 60,
+      "hn_url": "https://news.ycombinator.com/item?id=50266910",
+      "created_at": "2026-10-27T22:42:51Z",
+      "security": false
+    },
+    {
+      "id": "50282766",
+      "title": "New York Times adds more AI features to its Cooking app. Users aren't thrilled",
+      "url": "https://www.niemanlab.org/2026/10/the-new-york-times-is-adding-more-ai-features-to-its-cooking-app-and-users-arent-thrilled/",
+      "points": 56,
+      "comments": 104,
+      "hn_url": "https://news.ycombinator.com/item?id=50282766",
+      "created_at": "2026-10-29T00:16:08Z",
+      "security": false
+    },
+    {
+      "id": "50282865",
+      "title": "MicroZig to Adopt Strict No LLM / No AI Policy",
+      "url": "https://github.com/ZigEmbeddedGroup/microzig/blob/main/CODE_OF_CONDUCT.md",
+      "points": 55,
+      "comments": 70,
+      "hn_url": "https://news.ycombinator.com/item?id=50282865",
+      "created_at": "2026-10-29T00:30:37Z",
       "security": false
     },
     {
       "id": "50202671",
       "title": "AI compute is the new oil\u2013and needs a new market",
       "url": "https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market",
-      "points": 53,
+      "points": 54,
       "comments": 63,
       "hn_url": "https://news.ycombinator.com/item?id=50202671",
       "created_at": "2026-10-22T23:45:16Z",
+      "security": false
+    },
+    {
+      "id": "50255346",
+      "title": "\u201cAI Skills\u201d are worthless in 2026",
+      "url": "https://fishbowl.pastiche.org/2026/10/26/ai-skills",
+      "points": 52,
+      "comments": 25,
+      "hn_url": "https://news.ycombinator.com/item?id=50255346",
+      "created_at": "2026-10-27T06:33:34Z",
       "security": false
     },
     {
@@ -682,63 +782,53 @@
       "security": false
     },
     {
-      "id": "50255346",
-      "title": "\u201cAI Skills\u201d are worthless in 2026",
-      "url": "https://fishbowl.pastiche.org/2026/10/26/ai-skills",
-      "points": 51,
-      "comments": 25,
-      "hn_url": "https://news.ycombinator.com/item?id=50255346",
-      "created_at": "2026-10-27T06:33:34Z",
-      "security": false
-    },
-    {
-      "id": "50185438",
-      "title": "Anthropic's Public Benefit Charter",
-      "url": "https://www.anthropic.com/public-benefit-charter",
-      "points": 49,
-      "comments": 63,
-      "hn_url": "https://news.ycombinator.com/item?id=50185438",
-      "created_at": "2026-10-21T18:29:54Z",
-      "security": false
-    },
-    {
-      "id": "50192868",
-      "title": "Achieving AI-style reasoning without an LLM",
-      "url": "https://fleetingswallow.com/minotaur-ai-deep-dive-achieving-reasoning-without-a-language-model/",
-      "points": 48,
-      "comments": 31,
-      "hn_url": "https://news.ycombinator.com/item?id=50192868",
-      "created_at": "2026-10-22T08:46:58Z",
+      "id": "50266701",
+      "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+      "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+      "points": 50,
+      "comments": 36,
+      "hn_url": "https://news.ycombinator.com/item?id=50266701",
+      "created_at": "2026-10-27T22:23:37Z",
       "security": false
     },
     {
       "id": "50256230",
       "title": "AI is ruining haunted houses",
       "url": "https://www.plagiarismtoday.com/2026/10/26/ai-is-ruining-haunted-attractions/",
-      "points": 47,
-      "comments": 109,
+      "points": 48,
+      "comments": 111,
       "hn_url": "https://news.ycombinator.com/item?id=50256230",
       "created_at": "2026-10-27T08:50:33Z",
       "security": false
     },
     {
-      "id": "50266701",
-      "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
-      "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
-      "points": 45,
-      "comments": 29,
-      "hn_url": "https://news.ycombinator.com/item?id=50266701",
-      "created_at": "2026-10-27T22:23:37Z",
+      "id": "50263699",
+      "title": "Trump says he will ban everyone from using the phrase 'artificial intelligence'",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-ban-artificial-intelligence-phrase-b3074397.html",
+      "points": 39,
+      "comments": 14,
+      "hn_url": "https://news.ycombinator.com/item?id=50263699",
+      "created_at": "2026-10-27T18:33:47Z",
       "security": false
     },
     {
-      "id": "50266910",
-      "title": "Qwen has alter egos triggered by flipping a single neuron",
-      "url": "https://qwen-neurons-site.vercel.app/",
-      "points": 44,
-      "comments": 16,
-      "hn_url": "https://news.ycombinator.com/item?id=50266910",
-      "created_at": "2026-10-27T22:42:51Z",
+      "id": "50263325",
+      "title": "Police Are Pulling People over Because AI Deems Their Driving \"Suspicious\"",
+      "url": "https://www.aclu.org/news/privacy-technology/ai-driven-police-stops",
+      "points": 38,
+      "comments": 10,
+      "hn_url": "https://news.ycombinator.com/item?id=50263325",
+      "created_at": "2026-10-27T18:08:20Z",
+      "security": false
+    },
+    {
+      "id": "50245821",
+      "title": "In China, the AI bubble has burst",
+      "url": "https://www.reuters.com/world/china/china-ai-bubble-has-already-burst-2026-10-26/",
+      "points": 38,
+      "comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=50245821",
+      "created_at": "2026-10-26T15:50:54Z",
       "security": false
     },
     {
@@ -746,19 +836,9 @@
       "title": "If AI displaces human workers, they will lose more than just pay",
       "url": "https://www.economist.com/business/2026/10/22/if-ai-displaces-human-workers-they-will-lose-more-than-just-pay",
       "points": 38,
-      "comments": 99,
+      "comments": 101,
       "hn_url": "https://news.ycombinator.com/item?id=50238351",
       "created_at": "2026-10-26T02:22:38Z",
-      "security": false
-    },
-    {
-      "id": "50263699",
-      "title": "Trump says he will ban everyone from using the phrase 'artificial intelligence'",
-      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-ban-artificial-intelligence-phrase-b3074397.html",
-      "points": 37,
-      "comments": 14,
-      "hn_url": "https://news.ycombinator.com/item?id=50263699",
-      "created_at": "2026-10-27T18:33:47Z",
       "security": false
     },
     {
@@ -772,6 +852,16 @@
       "security": false
     },
     {
+      "id": "50225443",
+      "title": "Making My Blog Readable by AI Agents",
+      "url": "https://deallocatedobjects.com/posts/making-my-blog-readable-by-ai-agents",
+      "points": 37,
+      "comments": 10,
+      "hn_url": "https://news.ycombinator.com/item?id=50225443",
+      "created_at": "2026-10-24T21:21:33Z",
+      "security": false
+    },
+    {
       "id": "50196604",
       "title": "Important updates to AI use on Etsy",
       "url": "https://www.etsy.com/seller-handbook/article/1522733284810",
@@ -782,63 +872,23 @@
       "security": false
     },
     {
-      "id": "50263325",
-      "title": "Police Are Pulling People over Because AI Deems Their Driving \"Suspicious\"",
-      "url": "https://www.aclu.org/news/privacy-technology/ai-driven-police-stops",
-      "points": 36,
-      "comments": 10,
-      "hn_url": "https://news.ycombinator.com/item?id=50263325",
-      "created_at": "2026-10-27T18:08:20Z",
-      "security": false
-    },
-    {
-      "id": "50263012",
-      "title": "She Worried About Cutting Her Medication Dose. ChatGPT Told Her to Push On",
-      "url": "https://www.nytimes.com/2026/10/27/well/ai-chatgpt-medication-epilepsy-death.html",
-      "points": 36,
-      "comments": 10,
-      "hn_url": "https://news.ycombinator.com/item?id=50263012",
-      "created_at": "2026-10-27T17:49:47Z",
-      "security": false
-    },
-    {
-      "id": "50245821",
-      "title": "In China, the AI bubble has burst",
-      "url": "https://www.reuters.com/world/china/china-ai-bubble-has-already-burst-2026-10-26/",
-      "points": 36,
-      "comments": 2,
-      "hn_url": "https://news.ycombinator.com/item?id=50245821",
-      "created_at": "2026-10-26T15:50:54Z",
-      "security": false
-    },
-    {
-      "id": "50225443",
-      "title": "Making My Blog Readable by AI Agents",
-      "url": "https://deallocatedobjects.com/posts/making-my-blog-readable-by-ai-agents",
-      "points": 36,
-      "comments": 10,
-      "hn_url": "https://news.ycombinator.com/item?id=50225443",
-      "created_at": "2026-10-24T21:21:33Z",
-      "security": false
-    },
-    {
-      "id": "50271271",
-      "title": "Microsoft and Epic Games Suddenly Agree That AI Is Theft",
-      "url": "https://kotaku.com/now-that-the-shoe-is-on-the-other-foot-microsoft-and-epic-games-suddenly-agree-that-ai-is-theft-2000749316",
-      "points": 35,
-      "comments": 14,
-      "hn_url": "https://news.ycombinator.com/item?id=50271271",
-      "created_at": "2026-10-28T10:10:58Z",
-      "security": false
-    },
-    {
       "id": "50260571",
       "title": "Show HN: Specification First Agentic Development Plugin and Prove",
       "url": "https://spec-first.dev/",
-      "points": 33,
-      "comments": 29,
+      "points": 34,
+      "comments": 32,
       "hn_url": "https://news.ycombinator.com/item?id=50260571",
       "created_at": "2026-10-27T15:12:20Z",
+      "security": false
+    },
+    {
+      "id": "50286738",
+      "title": "I Used AI to Fake a Scientific Paper. Here's What Happened",
+      "url": "https://spectrum.ieee.org/ai-generated-scientific-papers",
+      "points": 33,
+      "comments": 20,
+      "hn_url": "https://news.ycombinator.com/item?id=50286738",
+      "created_at": "2026-10-29T10:08:04Z",
       "security": false
     },
     {
@@ -852,13 +902,53 @@
       "security": false
     },
     {
-      "id": "50190334",
-      "title": "LLM agents play Pokemon showdown",
-      "url": "https://olivergrabner.com/research/pokemon/",
+      "id": "50273416",
+      "title": "Decompiling Games with AI: Virtueel Zoetermeer",
+      "url": "https://bou.ke/blog/zoetermeer/",
       "points": 31,
-      "comments": 17,
-      "hn_url": "https://news.ycombinator.com/item?id=50190334",
-      "created_at": "2026-10-22T02:13:48Z",
+      "comments": 6,
+      "hn_url": "https://news.ycombinator.com/item?id=50273416",
+      "created_at": "2026-10-28T13:43:32Z",
+      "security": false
+    },
+    {
+      "id": "50234183",
+      "title": "Fine-tuned Qwen on my 16gb GPU to respond without the letter e",
+      "url": "https://kevin-wu.ca/blog/qwn/",
+      "points": 31,
+      "comments": 20,
+      "hn_url": "https://news.ycombinator.com/item?id=50234183",
+      "created_at": "2026-10-25T18:00:04Z",
+      "security": false
+    },
+    {
+      "id": "50251896",
+      "title": "Running Qwen3.8-Flash-Next NVFP4 at 184 tok/s on a single RTX 6000 Pro",
+      "url": "https://meshapplied.com/blog/release-1",
+      "points": 28,
+      "comments": 6,
+      "hn_url": "https://news.ycombinator.com/item?id=50251896",
+      "created_at": "2026-10-26T22:17:22Z",
+      "security": false
+    },
+    {
+      "id": "50249872",
+      "title": "Neuron Explorer for Qwen3.5-4B: See every neuron at work, make targeted edits",
+      "url": "https://github.com/lyramakesmusic/neuron-explorer",
+      "points": 28,
+      "comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=50249872",
+      "created_at": "2026-10-26T19:46:54Z",
+      "security": false
+    },
+    {
+      "id": "50211618",
+      "title": "AI Safety Is Mostly a Sex Cult in Berkeley, California",
+      "url": "https://www.verysane.ai/p/ai-safety-is-mostly-a-sex-cult-in-berkeley-california",
+      "points": 28,
+      "comments": 5,
+      "hn_url": "https://news.ycombinator.com/item?id=50211618",
+      "created_at": "2026-10-23T16:31:52Z",
       "security": false
     },
     {
@@ -872,23 +962,13 @@
       "security": false
     },
     {
-      "id": "50251896",
-      "title": "Running Qwen3.8-Flash-Next NVFP4 at 184 tok/s on a single RTX 6000 Pro",
-      "url": "https://meshapplied.com/blog/release-1",
+      "id": "50235449",
+      "title": "Kauldron: Modular, scalable library to train ML models",
+      "url": "https://github.com/google-research/kauldron",
       "points": 27,
-      "comments": 6,
-      "hn_url": "https://news.ycombinator.com/item?id=50251896",
-      "created_at": "2026-10-26T22:17:22Z",
-      "security": false
-    },
-    {
-      "id": "50249872",
-      "title": "Neuron Explorer for Qwen3.5-4B: See every neuron at work, make targeted edits",
-      "url": "https://github.com/lyramakesmusic/neuron-explorer",
-      "points": 27,
-      "comments": 0,
-      "hn_url": "https://news.ycombinator.com/item?id=50249872",
-      "created_at": "2026-10-26T19:46:54Z",
+      "comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=50235449",
+      "created_at": "2026-10-25T19:53:33Z",
       "security": false
     },
     {
@@ -902,26 +982,6 @@
       "security": true
     },
     {
-      "id": "50211618",
-      "title": "AI Safety Is Mostly a Sex Cult in Berkeley, California",
-      "url": "https://www.verysane.ai/p/ai-safety-is-mostly-a-sex-cult-in-berkeley-california",
-      "points": 27,
-      "comments": 5,
-      "hn_url": "https://news.ycombinator.com/item?id=50211618",
-      "created_at": "2026-10-23T16:31:52Z",
-      "security": false
-    },
-    {
-      "id": "50273192",
-      "title": "Valve Responds to Developers Fearing AI Slop and Clones",
-      "url": "https://www.invenglobal.com/articles/27761/valve-responds-to-developers-fearing-ai-slop-and-clones",
-      "points": 26,
-      "comments": 13,
-      "hn_url": "https://news.ycombinator.com/item?id=50273192",
-      "created_at": "2026-10-28T13:27:24Z",
-      "security": false
-    },
-    {
       "id": "50255159",
       "title": "Anthropic's Disproof of the ETH",
       "url": "https://hexagonmath.org/2610.00577v1",
@@ -929,6 +989,16 @@
       "comments": 6,
       "hn_url": "https://news.ycombinator.com/item?id=50255159",
       "created_at": "2026-10-27T05:58:59Z",
+      "security": false
+    },
+    {
+      "id": "50250910",
+      "title": "AI models cost more when you don't use English",
+      "url": "https://restofworld.org/2026/ai-tokenizer-tax-non-english-languages-cost-inequity/",
+      "points": 25,
+      "comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=50250910",
+      "created_at": "2026-10-26T21:03:22Z",
       "security": false
     },
     {
@@ -942,16 +1012,6 @@
       "security": false
     },
     {
-      "id": "50235449",
-      "title": "Kauldron: Modular, scalable library to train ML models",
-      "url": "https://github.com/google-research/kauldron",
-      "points": 25,
-      "comments": 2,
-      "hn_url": "https://news.ycombinator.com/item?id=50235449",
-      "created_at": "2026-10-25T19:53:33Z",
-      "security": false
-    },
-    {
       "id": "50249076",
       "title": "GPT-6.1 Terra (Max) Scores 48 on Artificial Analysis",
       "url": "https://artificialanalysis.ai/models/gpt-6-1-terra",
@@ -959,16 +1019,6 @@
       "comments": 2,
       "hn_url": "https://news.ycombinator.com/item?id=50249076",
       "created_at": "2026-10-26T18:54:00Z",
-      "security": false
-    },
-    {
-      "id": "50250910",
-      "title": "AI models cost more when you don't use English",
-      "url": "https://restofworld.org/2026/ai-tokenizer-tax-non-english-languages-cost-inequity/",
-      "points": 23,
-      "comments": 1,
-      "hn_url": "https://news.ycombinator.com/item?id=50250910",
-      "created_at": "2026-10-26T21:03:22Z",
       "security": false
     },
     {
@@ -996,7 +1046,7 @@
       "title": "Who Cares Whether Academics Use AI to Write?",
       "url": "https://www.chronicle.com/article/who-cares-whether-academics-use-ai-to-write",
       "points": 23,
-      "comments": 78,
+      "comments": 80,
       "hn_url": "https://news.ycombinator.com/item?id=50210696",
       "created_at": "2026-10-23T15:29:32Z",
       "security": false
@@ -1012,13 +1062,43 @@
       "security": false
     },
     {
+      "id": "50222826",
+      "title": "Progressive disclosure in agents to make them 2.3x faster",
+      "url": "https://www.skyvern.com/blog/deleting-rag-from-our-web-agent-made-it-2-3x-faster/",
+      "points": 22,
+      "comments": 3,
+      "hn_url": "https://news.ycombinator.com/item?id=50222826",
+      "created_at": "2026-10-24T16:30:58Z",
+      "security": false
+    },
+    {
       "id": "50219875",
       "title": "Claude Code slyly adding users' emails to outbound HTTP",
       "url": "https://twitter.com/chrislakin/status/2113358733548081528",
       "points": 22,
-      "comments": 6,
+      "comments": 8,
       "hn_url": "https://news.ycombinator.com/item?id=50219875",
       "created_at": "2026-10-24T10:26:30Z",
+      "security": false
+    },
+    {
+      "id": "50217208",
+      "title": "AI in UX: Work Is Faster, but Practitioners Have Mixed Feelings",
+      "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/",
+      "points": 22,
+      "comments": 2,
+      "hn_url": "https://news.ycombinator.com/item?id=50217208",
+      "created_at": "2026-10-24T00:32:17Z",
+      "security": false
+    },
+    {
+      "id": "50215398",
+      "title": "AI is devastating higher education, but the system was broken",
+      "url": "https://theconversation.com/friday-essay-ai-is-devastating-higher-education-but-the-system-was-already-broken-292988",
+      "points": 22,
+      "comments": 1,
+      "hn_url": "https://news.ycombinator.com/item?id=50215398",
+      "created_at": "2026-10-23T21:11:59Z",
       "security": false
     },
     {
@@ -1032,26 +1112,6 @@
       "security": false
     },
     {
-      "id": "50222826",
-      "title": "Progressive disclosure in agents to make them 2.3x faster",
-      "url": "https://www.skyvern.com/blog/deleting-rag-from-our-web-agent-made-it-2-3x-faster/",
-      "points": 21,
-      "comments": 2,
-      "hn_url": "https://news.ycombinator.com/item?id=50222826",
-      "created_at": "2026-10-24T16:30:58Z",
-      "security": false
-    },
-    {
-      "id": "50217208",
-      "title": "AI in UX: Work Is Faster, but Practitioners Have Mixed Feelings",
-      "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/",
-      "points": 21,
-      "comments": 2,
-      "hn_url": "https://news.ycombinator.com/item?id=50217208",
-      "created_at": "2026-10-24T00:32:17Z",
-      "security": false
-    },
-    {
       "id": "50215950",
       "title": "AI devours a fifth of companies' IT budgets",
       "url": "https://www.computerworld.com/article/4239898/ai-accounts-for-one-fifth-of-companies-it-budgets.html",
@@ -1062,13 +1122,23 @@
       "security": false
     },
     {
-      "id": "50215398",
-      "title": "AI is devastating higher education, but the system was broken",
-      "url": "https://theconversation.com/friday-essay-ai-is-devastating-higher-education-but-the-system-was-already-broken-292988",
-      "points": 21,
-      "comments": 1,
-      "hn_url": "https://news.ycombinator.com/item?id=50215398",
-      "created_at": "2026-10-23T21:11:59Z",
+      "id": "50271004",
+      "title": "Ask HN: What do you believe or not believe about AI?",
+      "url": "https://news.ycombinator.com/item?id=50271004",
+      "points": 20,
+      "comments": 40,
+      "hn_url": "https://news.ycombinator.com/item?id=50271004",
+      "created_at": "2026-10-28T09:29:12Z",
+      "security": false
+    },
+    {
+      "id": "50261584",
+      "title": "We let our cloud agents query prod (with OIDC, not secrets)",
+      "url": "https://www.formal.ai/blog/cloud-agents-oidc-infrastructure/",
+      "points": 20,
+      "comments": 15,
+      "hn_url": "https://news.ycombinator.com/item?id=50261584",
+      "created_at": "2026-10-27T16:25:12Z",
       "security": false
     },
     {
@@ -1101,21 +1171,9 @@
         "cs.CL",
         "cs.AI"
       ],
-      "points": 257,
+      "points": 258,
       "comments": 205,
       "hn_url": "https://news.ycombinator.com/item?id=50223647"
-    },
-    {
-      "arxiv_id": "2603.01092",
-      "title": "The Alien Space of Science: Sampling Coherent but Cognitively Unavailable Research Directions",
-      "arxiv_url": "https://arxiv.org/abs/2603.01092",
-      "categories": [
-        "cs.AI",
-        "cs.LG"
-      ],
-      "points": 212,
-      "comments": 88,
-      "hn_url": "https://news.ycombinator.com/item?id=50195002"
     },
     {
       "arxiv_id": "2512.19428",
@@ -1126,9 +1184,22 @@
         "cs.AI",
         "math.AG"
       ],
-      "points": 192,
-      "comments": 71,
+      "points": 194,
+      "comments": 72,
       "hn_url": "https://news.ycombinator.com/item?id=50237224"
+    },
+    {
+      "arxiv_id": "2610.36341",
+      "title": "Executable Archaeology of Programs That Model Programming: Reanimating the Heuristic Compiler (1961) and KBEmacs (1984)",
+      "arxiv_url": "https://arxiv.org/abs/2610.36341",
+      "categories": [
+        "cs.AI",
+        "cs.HC",
+        "cs.PL"
+      ],
+      "points": 21,
+      "comments": 0,
+      "hn_url": "https://news.ycombinator.com/item?id=50268478"
     }
   ]
 }
